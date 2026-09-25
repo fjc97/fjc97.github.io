@@ -36,16 +36,27 @@
         </div>
     </header>
 
-    <!-- Hero / Personal Statement Section -->
-    <section id="about" class="pt-24 pb-20 px-6 border-b border-slate-800/60 relative overflow-hidden">
+    <!-- Hero / Personal Statement Section with Headshot -->
+    <section id="about" class="pt-16 pb-20 px-6 border-b border-slate-800/60 relative overflow-hidden">
         <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl pointer-events-none"></div>
         
         <div class="max-w-4xl mx-auto text-center relative z-10">
-            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-900/50 text-blue-300 text-xs font-bold tracking-widest uppercase mb-8 border border-blue-700/50">
-                Rutgers Business School • Finance Major
+            
+            <!-- Headshot Image Container -->
+            <div class="mb-8 inline-block relative">
+                <div class="w-40 h-40 md:w-48 md:h-48 rounded-full p-1 bg-gradient-to-tr from-amber-400 via-blue-500 to-amber-200 shadow-2xl mx-auto">
+                    <!-- REPLACE "headshot.jpg" WITH YOUR ACTUAL PHOTO FILENAME IN GITHUB -->
+                    <img src="headshot.jpg" alt="Fernando Contreras Headshot" class="w-full h-full object-cover rounded-full bg-slate-800 border-4 border-[#0A1128]">
+                </div>
+            </div>
+
+            <div>
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-900/50 text-blue-300 text-xs font-bold tracking-widest uppercase mb-6 border border-blue-700/50">
+                    Rutgers Business School • Finance Major
+                </div>
             </div>
             
-            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white mb-8 leading-tight">
+            <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight text-white mb-8 leading-tight">
                 Navigating global markets with <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-white to-amber-300">data-driven strategy.</span>
             </h1>
 
@@ -66,7 +77,6 @@
                 <p class="text-slate-400 text-sm uppercase tracking-widest font-semibold">Technical & Professional Skillset</p>
             </div>
 
-            <!-- Skills Showcase -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <div class="bg-[#0A1128] border border-slate-800 p-6 rounded-xl text-center hover:border-amber-400/50 transition group">
                     <div class="w-12 h-12 mx-auto rounded-lg bg-blue-900/30 text-amber-400 flex items-center justify-center font-bold text-xl mb-3 group-hover:scale-110 transition">🛡️</div>
@@ -121,41 +131,27 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <!-- Project 1 -->
-                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-8 flex flex-col justify-between hover:border-slate-700 transition relative group">
-                    <div>
-                        <div class="flex items-center justify-between mb-4">
-                            <span class="text-xs font-bold text-amber-400 uppercase tracking-widest bg-amber-400/10 px-3 py-1 rounded-full border border-amber-400/20">Case Study & Diagnostics</span>
-                            <span class="text-slate-500 text-xs font-semibold">Rutgers Business School</span>
-                        </div>
-                        <h3 class="text-2xl font-bold text-white mb-4">Management Skills Group Project</h3>
-                        <p class="text-slate-300 text-sm leading-relaxed mb-6">
-                            Analyzed a local retail business experiencing employee absenteeism and disengagement that contributed to delayed customer fulfillment. Our team developed a diagnostic strategy and formal report using survey data, industry research, and management theories, culminating in a senior-management presentation. As the rotating team leader during key project phases, I coordinated meeting agendas, delegated tasks, and facilitated peer feedback to keep deliverables on schedule.
-                        </p>
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-8 hover:border-slate-700 transition">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-xs font-bold text-amber-400 uppercase tracking-widest bg-amber-400/10 px-3 py-1 rounded-full border border-amber-400/20">Case Study & Diagnostics</span>
+                        <span class="text-slate-500 text-xs font-semibold">Rutgers Business School</span>
                     </div>
-                    <div>
-                        <a href="https://www.linkedin.com/in/fernando-contreras-0b0171225/" target="_blank" class="inline-flex items-center gap-2 text-sm font-bold text-amber-400 hover:text-amber-300 transition">
-                            Project Reference & Link &rarr;
-                        </a>
-                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Management Skills Group Project</h3>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        Analyzed a local retail business experiencing employee absenteeism and disengagement that contributed to delayed customer fulfillment. Our team developed a diagnostic strategy and formal report using survey data, industry research, and management theories, culminating in a senior-management presentation. As the rotating team leader during key project phases, I coordinated meeting agendas, delegated tasks, and facilitated peer feedback to keep deliverables on schedule.
+                    </p>
                 </div>
 
                 <!-- Project 2 -->
-                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-8 flex flex-col justify-between hover:border-slate-700 transition relative group">
-                    <div>
-                        <div class="flex items-center justify-between mb-4">
-                            <span class="text-xs font-bold text-blue-400 uppercase tracking-widest bg-blue-400/10 px-3 py-1 rounded-full border border-blue-400/20">Virtual Job Simulation</span>
-                            <span class="text-slate-500 text-xs font-semibold">Goldman Sachs • Forage</span>
-                        </div>
-                        <h3 class="text-2xl font-bold text-white mb-4">Goldman Sachs Risk Job Simulation</h3>
-                        <p class="text-slate-300 text-sm leading-relaxed mb-6">
-                            Completed a virtual job simulation focused on risk assessment and management within Goldman Sachs’ Risk team. Conducted individual credit risk analysis using quantified financial data and applied critical thinking and quantitative analysis to real estate scenarios to evaluate potential financial implications. Developed and recommended risk mitigation strategies based on financial data and market considerations, strengthening my ability to assess risk and apply financial principles to practical business scenarios.
-                        </p>
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-8 hover:border-slate-700 transition">
+                    <div class="flex items-center justify-between mb-4">
+                        <span class="text-xs font-bold text-blue-400 uppercase tracking-widest bg-blue-400/10 px-3 py-1 rounded-full border border-blue-400/20">Virtual Job Simulation</span>
+                        <span class="text-slate-500 text-xs font-semibold">Goldman Sachs • Forage</span>
                     </div>
-                    <div>
-                        <a href="https://www.linkedin.com/in/fernando-contreras-0b0171225/" target="_blank" class="inline-flex items-center gap-2 text-sm font-bold text-blue-400 hover:text-blue-300 transition">
-                            Simulation Certificate / Profile &rarr;
-                        </a>
-                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-4">Goldman Sachs Risk Job Simulation</h3>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        Completed a virtual job simulation focused on risk assessment and management within Goldman Sachs’ Risk team. Conducted individual credit risk analysis using quantified financial data and applied critical thinking and quantitative analysis to real estate scenarios to evaluate potential financial implications. Developed and recommended risk mitigation strategies based on financial data and market considerations, strengthening my ability to assess risk and apply financial principles to practical business scenarios.
+                    </p>
                 </div>
             </div>
         </div>
